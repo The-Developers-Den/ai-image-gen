@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h2>Hello world</h2>
+        <h2 className="font-inter">Hello world</h2>
       </main>
     </>
   );
